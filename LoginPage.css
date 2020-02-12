@@ -1,0 +1,26 @@
+body {
+	width:100vw;
+	height:100vh;
+	background-color:black;
+}
+body a {
+	text-align:center;
+	color:white;
+	display:block;
+}
+body h1 {
+	text-align:center;
+	color:white;
+}
+body p {
+	text-align:center;
+	color:white;
+}
+body button {
+	position:relative;
+	display:block;
+	margin-left:45%;
+}
+body button a {
+	color:black;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="./LoginPage.css"></link>
+	<script src="./LoginPage.js"></script>
+</head>
+<body>
+<h1>Welcome to my website!</h1>
+<p>It's a bit of a work in progress at the moment, so please excuse any weird bugs you may find while using it.
+<br><br>
+I made this site to hone my skills with html and javascript, since, as we all know, one needs experience for even entry
+level jobs nowadays. So hopefully, projects like these will count, and verify my capabilites to future employers. Figured 
+if I'm gonna type this, I might as well be straight with you all.
+<br>
+<br>
+Anyways, its still hopefully usable, I would like to see some actual benefit come from my labor, so feel free to try the site out!
+ideally you'll be able to use it as a redundant spotify player, because using the app is too mainstream, am I right?
+At some point I hope to add a feedback button to improve my skills.
+<br><br></p>
+<button><a id="SpotifyLogin" href="p">Login to Spotify<a></button>
+<script type ="text/javascript">
+		window.onload = () => {
+			document.getElementById("SpotifyLogin").href = getLoginURL();
+		}
+	</script>
+</body>
+</html>
