@@ -11,7 +11,7 @@ function getLoginURL(){
 		scopeList += scopes[i]+" ";
 	}
 	var URL = {
-		client_id: '1e6c05cec31e486688c81e118b11346f',
+		client_id:,
 		state : '1239ouy5',
 		redirect_uri: encodeURIComponent('http://localhost:1339/MainPage.html'),
 		scope: encodeURIComponent(scopeList),
